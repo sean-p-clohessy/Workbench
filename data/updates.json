@@ -1,0 +1,95 @@
+{
+  "generatedAt": "2026-09-03T18:02:07.155Z",
+  "updates": [
+    {
+      "tool": "CPD Finder",
+      "repository": "CPD-Finder",
+      "type": "commit",
+      "summary": "Collect complete provider inventories",
+      "url": "https://github.com/sean-p-clohessy/CPD-Finder/commit/22917b58a8dfc341c35baf239005d45bfbff20b5",
+      "timestamp": "2026-09-03T17:43:24Z",
+      "author": "Sean Clohessy"
+    },
+    {
+      "tool": "CPD Finder",
+      "repository": "CPD-Finder",
+      "type": "commit",
+      "summary": "Expand opportunities and add filters",
+      "url": "https://github.com/sean-p-clohessy/CPD-Finder/commit/c4839fa0a792da2fd09a0a8e84597e13ee8b9f03",
+      "timestamp": "2026-09-03T17:26:05Z",
+      "author": "Sean Clohessy"
+    },
+    {
+      "tool": "CPD Finder",
+      "repository": "CPD-Finder",
+      "type": "commit",
+      "summary": "Align opportunity card heights",
+      "url": "https://github.com/sean-p-clohessy/CPD-Finder/commit/a5e92860a2181ef5fc7106eaa3222da1c535b9e5",
+      "timestamp": "2026-09-03T16:58:42Z",
+      "author": "Sean Clohessy"
+    },
+    {
+      "tool": "CPD Finder",
+      "repository": "CPD-Finder",
+      "type": "commit",
+      "summary": "Require direct opportunity links",
+      "url": "https://github.com/sean-p-clohessy/CPD-Finder/commit/a955957adc01725f74f91263e6c2952d5215fa98",
+      "timestamp": "2026-09-03T16:56:31Z",
+      "author": "Sean Clohessy"
+    },
+    {
+      "tool": "CPD Finder",
+      "repository": "CPD-Finder",
+      "type": "commit",
+      "summary": "Build CPD Finder V1",
+      "url": "https://github.com/sean-p-clohessy/CPD-Finder/commit/0dbd24e0d3a39a7cfd23b446726e7b2904cabfda",
+      "timestamp": "2026-09-03T15:47:44Z",
+      "author": "Sean Clohessy"
+    },
+    {
+      "tool": "EHCP Outcome Cruncher",
+      "repository": "EHCP-Outcome-Cruncher",
+      "type": "commit",
+      "summary": "Expand outcome bank and simplify workflow",
+      "url": "https://github.com/sean-p-clohessy/EHCP-Outcome-Cruncher/commit/e100e96a220231d840fb60548e238bab931fc7ef",
+      "timestamp": "2026-09-03T08:10:47Z",
+      "author": "Sean Clohessy"
+    },
+    {
+      "tool": "EHCP Outcome Cruncher",
+      "repository": "EHCP-Outcome-Cruncher",
+      "type": "commit",
+      "summary": "Build initial EHCP Outcome Cruncher prototype",
+      "url": "https://github.com/sean-p-clohessy/EHCP-Outcome-Cruncher/commit/8c1b06399677d2c2af4fe012abcbd74f6be5e472",
+      "timestamp": "2026-09-02T08:23:52Z",
+      "author": "Sean Clohessy"
+    },
+    {
+      "tool": "Progress Tracking Builder",
+      "repository": "ProgressPointBuilder",
+      "type": "commit",
+      "summary": "Rename builder and organise progress contexts (#8)",
+      "url": "https://github.com/sean-p-clohessy/ProgressPointBuilder/commit/6390b6d7298c20ce7fde4b8068e13e7d4ca66b4c",
+      "timestamp": "2026-09-01T07:25:53Z",
+      "author": "Sean Clohessy"
+    },
+    {
+      "tool": "SMART Target Builder",
+      "repository": "SMARTTargetBuilder",
+      "type": "commit",
+      "summary": "Expand English maths and attendance targets",
+      "url": "https://github.com/sean-p-clohessy/SMARTTargetBuilder/commit/dba905660b3eefded8c6e459b3cb19455b2c5943",
+      "timestamp": "2026-09-01T07:15:01Z",
+      "author": "Sean Clohessy"
+    },
+    {
+      "tool": "Evidence, Please",
+      "repository": "evidence-please",
+      "type": "commit",
+      "summary": "Remove legacy green from alternate palettes",
+      "url": "https://github.com/sean-p-clohessy/evidence-please/commit/702c2dc6cc2fa6f66bedbad6ac8c5b3c675397e1",
+      "timestamp": "2026-08-18T19:00:00Z",
+      "author": "Sean Clohessy"
+    }
+  ]
+}

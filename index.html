@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Workbench: practical applications built to solve real problems in education.">
+  <meta name="theme-color" content="#07152e">
+  <title>Workbench — Tools for getting the job done</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" data-header>
+    <div class="header-inner wrap">
+      <a class="brand" href="#top" aria-label="Workbench home">
+        <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true"><path d="M6 9h7l4 17 5-11 5 11 4-17h7l-7 27h-7l-2-6-2 6h-7L6 9Z"/></svg>
+        <span>WORKBENCH</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+        <span class="sr-only">Toggle navigation</span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation" data-nav>
+        <a href="#tools">Tools</a><a href="#updates">Updates</a><a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-grid wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">Built in education. Built for education.</p>
+          <h1>TOOLS FOR<br>GETTING THE<br><span>JOB DONE.</span></h1>
+          <p class="hero-intro">Practical applications built to solve real problems in education.</p>
+          <a class="text-link hero-link" href="#tools">Explore the tools <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-panel" aria-hidden="true">
+          <div class="bench-label">WB / 001</div>
+          <svg viewBox="0 0 500 420" role="img">
+            <path class="diagram-grid" d="M0 60H500M0 140H500M0 220H500M0 300H500M90 0V420M210 0V420M330 0V420M450 0V420"/>
+            <path class="diagram-w" d="M68 86h64l38 189 80-130 80 130 38-189h64l-58 264h-76l-48-79-48 79h-76L68 86Z"/>
+            <circle cx="68" cy="86" r="8"/><circle cx="432" cy="86" r="8"/><circle cx="250" cy="145" r="8"/>
+          </svg>
+          <span class="panel-note">PRACTICAL / FOCUSED / USEFUL</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="tools-section section" id="tools" aria-labelledby="tools-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <div><p class="section-number">01 / THE TOOLBOX</p><h2 id="tools-title">Pick the right tool.</h2></div>
+          <p>Five focused applications. Each one built to make a real education task less complicated.</p>
+        </div>
+        <div class="tool-grid" data-tool-grid></div>
+      </div>
+    </section>
+
+    <section class="updates-section section" id="updates" aria-labelledby="updates-title">
+      <div class="wrap updates-layout">
+        <div class="updates-heading">
+          <p class="section-number light">02 / LATEST FROM THE BENCH</p>
+          <h2 id="updates-title">What’s changed.</h2>
+          <p>Recent releases and meaningful improvements from across the tools.</p>
+        </div>
+        <div class="updates-list" data-updates aria-live="polite">
+          <div class="updates-state">Checking the workshop log…</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="about-intro">
+          <p class="section-number">03 / WHY WORKBENCH</p>
+          <h2 id="about-title">Small tools.<br>Real problems.</h2>
+          <div><p>Workbench is a collection of small applications built around problems encountered in education.</p><p>The aim is simple: if a repetitive, frustrating or unnecessarily complicated job can be made easier with a useful tool, build the tool.</p></div>
+        </div>
+        <div class="principles">
+          <article><span>01</span><h3>Built from experience</h3><p>Created around real education workflows.</p></article>
+          <article><span>02</span><h3>Practical first</h3><p>Tools should save time or make a job easier.</p></article>
+          <article><span>03</span><h3>Safe by design</h3><p>Collect and store as little sensitive information as reasonably possible.</p></article>
+          <article><span>04</span><h3>Continuously improving</h3><p>Tools evolve as they are used.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <aside class="idea-strip" aria-labelledby="idea-title">
+      <div class="wrap idea-inner"><div><p class="section-number">HAVE AN IDEA?</p><h2 id="idea-title">Got a repetitive job that should be easier?</h2></div><a class="button" href="https://github.com/sean-p-clohessy" target="_blank" rel="noopener noreferrer">Tell me about it <span aria-hidden="true">↗</span></a></div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-main"><div class="footer-brand"><svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true"><path d="M6 9h7l4 17 5-11 5 11 4-17h7l-7 27h-7l-2-6-2 6h-7L6 9Z"/></svg><span>WORKBENCH</span></div><p>Built in education.<br>Built for education.</p><a href="https://github.com/sean-p-clohessy" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+    <div class="wrap footer-bottom"><span>Created by Sean Clohessy.</span><span>© <span data-year></span> Workbench</span></div>
+  </footer>
+</body>
+</html>
