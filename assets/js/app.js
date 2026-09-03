@@ -10,11 +10,11 @@ function renderTools() {
   const grid = document.querySelector('[data-tool-grid]');
   if (!grid || !Array.isArray(window.WORKBENCH_TOOLS)) return;
   grid.innerHTML = window.WORKBENCH_TOOLS.map((tool, index) => `
-    <article class="tool-card ${tool.variant === 'evidence' ? 'evidence-card' : ''}" style="--accent:${tool.accent}">
+    <a class="tool-card ${tool.variant === 'evidence' ? 'evidence-card' : ''}" style="--accent:${tool.accent}" href="${tool.url}" target="_blank" rel="noopener noreferrer" aria-label="${tool.cta}: ${tool.title}">
       <div class="card-top"><span class="card-index">0${index + 1}</span><span class="tool-icon">${icons[tool.icon] || icons.target}</span></div>
       <div class="card-copy"><p class="category">${tool.category}</p><h3>${tool.title}</h3><p>${tool.description}</p></div>
-      <div class="card-footer"><div class="tags">${(tool.tags || []).map(tag => `<span>${tag}</span>`).join('')}</div><a href="${tool.url}" target="_blank" rel="noopener noreferrer" aria-label="${tool.cta}: ${tool.title}">${tool.cta} <span aria-hidden="true">→</span></a></div>
-    </article>`).join('');
+      <div class="card-footer"><div class="tags">${(tool.tags || []).map(tag => `<span>${tag}</span>`).join('')}</div><span class="card-cta">${tool.cta} <span aria-hidden="true">→</span></span></div>
+    </a>`).join('');
 }
 
 function cleanSummary(message) {
