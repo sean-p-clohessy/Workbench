@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-09-03T18:02:07.155Z",
+  "generatedAt": "2026-09-04T11:17:55.594Z",
   "updates": [
+    {
+      "tool": "CPD Finder",
+      "repository": "CPD-Finder",
+      "type": "commit",
+      "summary": "Pull finder controls closer to hero",
+      "url": "https://github.com/sean-p-clohessy/CPD-Finder/commit/b791c9973f4ee9919e0619f1f33c1a0db6b9c274",
+      "timestamp": "2026-09-04T07:46:58Z",
+      "author": "Sean Clohessy"
+    },
+    {
+      "tool": "CPD Finder",
+      "repository": "CPD-Finder",
+      "type": "commit",
+      "summary": "Tighten page section spacing",
+      "url": "https://github.com/sean-p-clohessy/CPD-Finder/commit/b93eb8051190a5da754e06968b32b83ccdecf15f",
+      "timestamp": "2026-09-04T07:44:16Z",
+      "author": "Sean Clohessy"
+    },
     {
       "tool": "CPD Finder",
       "repository": "CPD-Finder",
@@ -71,24 +89,6 @@
       "summary": "Rename builder and organise progress contexts (#8)",
       "url": "https://github.com/sean-p-clohessy/ProgressPointBuilder/commit/6390b6d7298c20ce7fde4b8068e13e7d4ca66b4c",
       "timestamp": "2026-09-01T07:25:53Z",
-      "author": "Sean Clohessy"
-    },
-    {
-      "tool": "SMART Target Builder",
-      "repository": "SMARTTargetBuilder",
-      "type": "commit",
-      "summary": "Expand English maths and attendance targets",
-      "url": "https://github.com/sean-p-clohessy/SMARTTargetBuilder/commit/dba905660b3eefded8c6e459b3cb19455b2c5943",
-      "timestamp": "2026-09-01T07:15:01Z",
-      "author": "Sean Clohessy"
-    },
-    {
-      "tool": "Evidence, Please",
-      "repository": "evidence-please",
-      "type": "commit",
-      "summary": "Remove legacy green from alternate palettes",
-      "url": "https://github.com/sean-p-clohessy/evidence-please/commit/702c2dc6cc2fa6f66bedbad6ac8c5b3c675397e1",
-      "timestamp": "2026-08-18T19:00:00Z",
       "author": "Sean Clohessy"
     }
   ]
