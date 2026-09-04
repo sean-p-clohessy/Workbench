@@ -13,3 +13,7 @@
 /* Modular toolbox hero graphic. */
 .hero-modules{width:min(100%,360px);height:auto;overflow:visible}.module-guide{fill:none;stroke:rgba(255,255,255,.1);stroke-width:1}.module rect{fill:rgba(7,21,46,.88);stroke:currentColor;stroke-width:2}.module path,.module circle{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter}.module-pink{color:#ff3f9a}.module-cyan{color:#00cce7}.module-purple{color:#9b72ff}.module-green{color:#7be246}.module-orange{color:#ff8a32}.hero-modules text{fill:#9eacc0;font:600 9px 'IBM Plex Mono',monospace;letter-spacing:1px}
 @media(max-width:640px){.hero-support{grid-template-columns:130px 1fr}.hero-modules{width:130px}}
+
+/* Compact footer contact links. */
+.footer-links{display:flex;flex-direction:column;align-items:flex-start;gap:13px}.footer-links a{font:600 .72rem 'IBM Plex Mono',monospace;text-transform:uppercase;text-decoration:none;letter-spacing:.04em}.footer-links a:hover{text-decoration:underline;text-underline-offset:4px}.linkedin-link{display:inline-flex;align-items:center;gap:9px}.linkedin-link svg{width:20px;height:20px;fill:none;stroke:#00cce7;stroke-width:1.7;stroke-linecap:square;stroke-linejoin:miter}.github-link{color:#91a0b7}
+@media(max-width:640px){.footer-links{margin-top:4px}}
