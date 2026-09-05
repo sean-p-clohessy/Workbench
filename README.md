@@ -24,4 +24,4 @@ The homepage reads this static JSON and displays a graceful empty state before t
 
 ## Custom domain
 
-The intended custom domain is **edutools.uk**. When the domain is ready, add it in **Repository settings → Pages → Custom domain**, then configure the DNS records GitHub provides. GitHub will create a `CNAME` file in the repository. Enable **Enforce HTTPS** after DNS has propagated. The repository remains named `Workbench` until its deployment configuration is migrated separately.
+The site uses **edutools.uk** as its custom domain. Configure the apex domain with the DNS records recommended by GitHub Pages, then enable **Enforce HTTPS** after DNS has propagated. The committed `CNAME` file keeps the domain attached to the deployment.
