@@ -8,7 +8,7 @@ const tools = [
   ['CPD Finder', 'CPD-Finder'],
   ['Evidence, Please', 'evidence-please']
 ];
-const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'workbench-update-aggregator' };
+const headers = { Accept: 'application/vnd.github+json', 'User-Agent': 'toolkit-update-aggregator' };
 if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
 
 const ignored = /^(merge\b|bump\b|chore\(deps\)|dependabot|renovate)|\[skip ci\]/i;

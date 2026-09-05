@@ -1,6 +1,6 @@
-# Workbench
+# Toolkit
 
-Workbench is the front door for a growing collection of practical education tools. Each tool remains an independent application and repository; this site provides a shared identity, catalogue, and update feed.
+Toolkit is the front door for a growing collection of practical education tools. Each tool remains an independent application and repository; this site provides a shared identity, catalogue, and update feed.
 
 ## Local development
 
@@ -24,4 +24,4 @@ The homepage reads this static JSON and displays a graceful empty state before t
 
 ## Custom domain
 
-Add the domain in **Repository settings → Pages → Custom domain**, then configure the DNS records GitHub provides. GitHub will create a `CNAME` file in the repository. Enable **Enforce HTTPS** after DNS has propagated.
+The intended custom domain is **edutools.uk**. When the domain is ready, add it in **Repository settings → Pages → Custom domain**, then configure the DNS records GitHub provides. GitHub will create a `CNAME` file in the repository. Enable **Enforce HTTPS** after DNS has propagated. The repository remains named `Workbench` until its deployment configuration is migrated separately.

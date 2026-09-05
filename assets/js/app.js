@@ -8,8 +8,8 @@ const icons = {
 
 function renderTools() {
   const grid = document.querySelector('[data-tool-grid]');
-  if (!grid || !Array.isArray(window.WORKBENCH_TOOLS)) return;
-  grid.innerHTML = window.WORKBENCH_TOOLS.map((tool, index) => `
+  if (!grid || !Array.isArray(window.TOOLKIT_TOOLS)) return;
+  grid.innerHTML = window.TOOLKIT_TOOLS.map((tool, index) => `
     <a class="tool-card ${tool.variant === 'evidence' ? 'evidence-card' : ''}" style="--accent:${tool.accent}" href="${tool.url}" target="_blank" rel="noopener noreferrer" aria-label="${tool.cta}: ${tool.title}">
       <div class="card-top"><span class="card-index">0${index + 1}</span><span class="tool-icon">${icons[tool.icon] || icons.target}</span></div>
       <div class="card-copy"><p class="category">${tool.category}</p><h3>${tool.title}</h3><p>${tool.description}</p></div>
@@ -26,13 +26,13 @@ function renderUpdates(items) {
   const region = document.querySelector('[data-updates]');
   if (!region) return;
   if (!Array.isArray(items) || !items.length) {
-    region.innerHTML = '<div class="updates-state"><strong>The bench is quiet for now.</strong><span>Updates will appear here automatically as the tools change.</span></div>';
+    region.innerHTML = '<div class="updates-state"><strong>No updates yet.</strong><span>Recent changes to the tools will appear here automatically.</span></div>';
     return;
   }
   region.innerHTML = items.slice(0, 8).map(item => {
     const date = new Date(item.timestamp);
     const dateText = Number.isNaN(date.getTime()) ? '' : new Intl.DateTimeFormat('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).format(date);
-    return `<article class="update-item"><div><span class="update-tool">${item.tool || item.repository || 'Workbench'}</span><time datetime="${item.timestamp || ''}">${dateText}</time></div><h3>${cleanSummary(item.summary || item.message || item.title)}</h3>${item.url ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer" aria-label="View update for ${item.tool || item.repository}">View change <span aria-hidden="true">↗</span></a>` : ''}</article>`;
+    return `<article class="update-item"><div><span class="update-tool">${item.tool || item.repository || 'Toolkit'}</span><time datetime="${item.timestamp || ''}">${dateText}</time></div><h3>${cleanSummary(item.summary || item.message || item.title)}</h3>${item.url ? `<a href="${item.url}" target="_blank" rel="noopener noreferrer" aria-label="View update for ${item.tool || item.repository}">View change <span aria-hidden="true">↗</span></a>` : ''}</article>`;
   }).join('');
 }
 

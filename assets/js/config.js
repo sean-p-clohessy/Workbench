@@ -1,4 +1,4 @@
-window.WORKBENCH_TOOLS = [
+window.TOOLKIT_TOOLS = [
   {
     id: "smart-target-builder",
     title: "SMART Target Builder",
